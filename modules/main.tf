@@ -34,7 +34,7 @@ module "platform" {
     
 }
 module "connectivity" {
-    source = "./platform/connectivity"
+    source = "./contos/platform/connectivity"
     childgroupB1 = var.childgroupB1
     childgroupB0-ID = module.platform.childgroupB0-ID
     
